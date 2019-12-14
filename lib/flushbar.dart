@@ -483,9 +483,9 @@ class _FlushbarState<K extends Object> extends State<Flushbar> with TickerProvid
       buttonRightPadding = widget.padding.right - 12;
     }
 
-//    if (widget.padding.left > 16.0) {
-//      iconPadding = widget.padding.left;
-//    }
+    if (widget.padding.left > 16.0) {
+      iconPadding = widget.padding.left;
+    }
 
     if (widget.icon == null && widget.mainButton == null) {
       return [
