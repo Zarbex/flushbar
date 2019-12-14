@@ -657,7 +657,7 @@ class _FlushbarState<K extends Object> extends State<Flushbar> with TickerProvid
   }
 
   Widget _getIcon() {
-    if (widget.icon != null && widget.icon is Icon && widget.shouldIconPulse) {
+    if (widget.icon != null && widget.shouldIconPulse) {
       return FadeTransition(
         opacity: _fadeAnimation,
         child: widget.icon,
